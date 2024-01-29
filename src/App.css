@@ -2,19 +2,21 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App-shape {
+  height: 10vmin;
+  width: 10vmin;
+  background-color: #C7383C;
+  transition: transform 1s linear;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.App-shape:hover {
+  transform: rotate(360deg) translateX(100px);
+
 }
+
 
 .App-header {
-  background-color: #282c34;
+  background-color: #282D3F;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -28,11 +30,28 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+div.clickEffect {
+  position: fixed;
+  box-sizing: border-box;
+  border-style: solid;
+  border-color: #0ECEFF;
+  border-radius: 50%;
+  animation: clickFX 0.5s linear;
+  z-index: 999;
+}
+
+@keyframes clickFX {
+  0% {
+    opacity: 1;
+    width: 0.5em; height: 0.5em;
+    margin: -0.25em;
+    border-width: 0.2em;
   }
-  to {
-    transform: rotate(360deg);
+  100% {
+    opacity: 0.2;
+    width: 6em; height: 6em;
+    margin: -3em;
+    border-color: #BAE0FF;
+    border-width: 0.5em;
   }
 }

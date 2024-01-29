@@ -1,23 +1,22 @@
-import logo from './logo.svg';
 import './App.css';
+import MainPage from './mainPage/mainPage';
 
+function clickEffect(e) {
+  var d = document.createElement("div");
+  d.className = "clickEffect";
+  d.style.top = e.clientY + "px"; d.style.left = e.clientX + "px";
+  document.body.appendChild(d);
+  d.addEventListener('animationend', function () { d.parentElement.removeChild(d); });
+}
 function App() {
+  document.addEventListener('click', clickEffect);
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="App-header">
+        <div className="App-shape"/>
+        <MainPage />
+      </div>
     </div>
   );
 }
