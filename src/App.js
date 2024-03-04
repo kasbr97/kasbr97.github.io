@@ -3,11 +3,17 @@ import MainPage from './mainPage/mainPage';
 
 function clickEffect(e) {
   var d = document.createElement("div");
-  d.className = "clickEffect";
-  d.style.top = e.clientY + "px"; d.style.left = e.clientX + "px";
+  d.className = "clickFX";
+  d.style.top = e.clientY + "px"; 
+  d.style.left = e.clientX + "px";
   document.body.appendChild(d);
-  d.addEventListener('animationend', function () { d.parentElement.removeChild(d); });
+  var childWithClass = d.getElementsByClassName("clickFX");
+  console.log(childWithClass);
+  d.addEventListener('animationend', ()=>{ 
+    d.parentElement.removeChild(d); 
+  });
 }
+
 function App() {
   document.addEventListener('click', clickEffect);
 

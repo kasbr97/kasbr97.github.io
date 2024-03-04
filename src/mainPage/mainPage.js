@@ -9,6 +9,14 @@ function MainPage() {
                     I'm a Software engineer with 1 year experience as a Front-end developer using React with TypeScript. 
                     With additional experience experience in Python, SQL, noSQL(mongoDB), Java.
                 </p>
+                <div className='Description-buttons'>
+                    <button className="Buttons-Main">
+                        LinkedIn
+                    </button>
+                    <button className="Buttons-Main">
+                        GitHub
+                    </button>
+                </div>
             </div>
         </div>
     )

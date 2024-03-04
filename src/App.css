@@ -14,7 +14,6 @@
 
 }
 
-
 .App-header {
   background-color: #282D3F;
   min-height: 100vh;
@@ -24,20 +23,19 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-  padding-top: 5vmin;
 }
 
 .App-link {
   color: #61dafb;
 }
 
-div.clickEffect {
+div.clickFX {
   position: fixed;
   box-sizing: border-box;
   border-style: solid;
   border-color: #0ECEFF;
   border-radius: 50%;
-  animation: clickFX 0.5s linear;
+  animation: clickFX 0.4s linear;
   z-index: 999;
 }
 
@@ -46,13 +44,13 @@ div.clickEffect {
     opacity: 1;
     width: 0.5em; height: 0.5em;
     margin: -0.25em;
-    border-width: 0.2em;
+    border-width: 0.02em;
   }
   100% {
     opacity: 0.2;
     width: 6em; height: 6em;
     margin: -3em;
     border-color: #BAE0FF;
-    border-width: 0.5em;
+    border-width: 0.3em;
   }
 }
