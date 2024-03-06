@@ -30,10 +30,35 @@
     gap: 10%;
 }
 
-.Buttons-Main {
+.github-Image { 
+    width: 5rem;
+    height: 5rem;
+}
+/* .github-Image:hover {
+    filter: invert(26%) sepia(75%) saturate(6948%) hue-rotate(272deg) brightness(106%) contrast(101%);
+} */
+
+.Buttons-Social {
     background-color: black;
     color: white;
     border: none;
-    width: 20%;
-    height: 20%;
+    background: linear-gradient(90deg, #1F51FF, #B026FF, #1F51FF);
+    width: 6.5rem;
+    height: 6.5rem;
+    cursor: pointer;
+    background-size: 200%;
+    transition: background-position 400ms ease;
+}
+
+.Buttons-Social:hover {
+    background-position: 100%;
+}
+
+.linkedin-Image {
+    /*
+        For future reference... filters on SVGs done through this website 
+        https: //isotropic.co/tool/hex-color-to-css-filter/
+    */
+    width: 4rem;
+    height: 4rem;
 }

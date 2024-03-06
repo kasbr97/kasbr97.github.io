@@ -5,13 +5,13 @@
 .App-shape {
   height: 10vmin;
   width: 10vmin;
-  background-color: #C7383C;
-  transition: transform 1s linear;
+  background-color: #1F51FF;
+  transition: transform 1s linear, background-color 1s linear;
 }
 
 .App-shape:hover {
+  background-color: #B026FF;
   transform: rotate(360deg) translateX(100px);
-
 }
 
 .App-header {
