@@ -6,6 +6,16 @@
     width: 100%;
 }
 
+.name-color {
+    border-bottom: 1px solid #36FEAD;
+    cursor: pointer;
+    display: inline-block;
+    transition: transform 200ms linear;
+}
+.name-color:hover {
+    transform: translateY(-5px);
+}
+
 .Main-description {
     display: flex;
     flex-direction: row;
@@ -42,7 +52,8 @@
     background-color: black;
     color: white;
     border: none;
-    background: linear-gradient(90deg, #1F51FF, #B026FF, #1F51FF);
+    /* background: linear-gradient(90deg, #1F51FF, #B026FF, #1F51FF); */
+    background: linear-gradient(90deg, #1F51FF,#36FEAD, #1F51FF);
     width: 6.5rem;
     height: 6.5rem;
     cursor: pointer;

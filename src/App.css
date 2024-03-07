@@ -10,12 +10,12 @@
 }
 
 .App-shape:hover {
-  background-color: #B026FF;
+  background-color: #36FEAD;
   transform: rotate(360deg) translateX(100px);
 }
 
 .App-header {
-  background-color: #282D3F;
+  background-color: #0c1023;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
