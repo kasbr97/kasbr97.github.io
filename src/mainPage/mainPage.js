@@ -15,7 +15,7 @@ function MainPage() {
     }
     return (
         <div className="Container">
-            <h2>Hi! My name is Kevin Burga</h2>
+            <h2>Hi! My name is <span className="name-color">Kevin Burga.</span></h2>
             <div className="Main-description">
                 <p className="Description-text">
                     I'm a Software engineer with 1 year experience as a Front-end developer using React with TypeScript. 
