@@ -19,7 +19,9 @@ function MainPage() {
             <div className="Main-description">
                 <p className="Description-text">
                     I'm a Software engineer with 1 year experience as a Front-end developer using React with TypeScript. 
-                    With additional experience experience in Python, SQL, noSQL(mongoDB), Java.
+                    I've leveraged Python with Flask and FastAPI to deliver backend solutions,
+                    in addition to creating scripts to support data storage in small databases.
+                    Other experiences include SQL, noSQL(mongoDB) and Java.
                 </p>
                 <div className='Description-buttons'>
                     <button className="Buttons-Social" onClick={()=>{handleSocialButtonClick('linkedin')}}>
