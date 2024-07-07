@@ -1,5 +1,6 @@
 import './App.css';
 import MainPage from './mainPage/mainPage';
+import NavigationBar from './navigationBar/navigationBar';
 
 function clickEffect(e) {
   var d = document.createElement("div");
@@ -19,6 +20,7 @@ function App() {
 
   return (
     <div className="App">
+      <NavigationBar/>
       <div className="App-header">
         <div className="App-shape"/>
         <MainPage />
