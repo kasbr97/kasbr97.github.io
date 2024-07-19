@@ -1,28 +1,29 @@
 import './App.css';
+import clickEffect from './effects/ClickEffect';
 import MainPage from './mainPage/mainPage';
+import NavigationBar from './navigationBar/navigationBar';
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
-function clickEffect(e) {
-  var d = document.createElement("div");
-  d.className = "clickFX";
-  d.style.top = e.clientY + "px"; 
-  d.style.left = e.clientX + "px";
-  document.body.appendChild(d);
-  var childWithClass = d.getElementsByClassName("clickFX");
-  console.log(childWithClass);
-  d.addEventListener('animationend', ()=>{ 
-    d.parentElement.removeChild(d); 
-  });
-}
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <NavigationBar/>,
+    children: [
+      {
+        path: "/",
+        element: <MainPage/>
+      },
+
+    ]
+  }
+])
 
 function App() {
   document.addEventListener('click', clickEffect);
 
   return (
     <div className="App">
-      <div className="App-header">
-        <div className="App-shape"/>
-        <MainPage />
-      </div>
+      <RouterProvider router={router}/>
     </div>
   );
 }
