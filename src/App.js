@@ -3,6 +3,7 @@ import clickEffect from './effects/ClickEffect';
 import MainPage from './mainPage/mainPage';
 import NavigationBar from './navigationBar/navigationBar';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import Projects from './projects/Projects';
 
 const router = createBrowserRouter([
   {
@@ -13,7 +14,10 @@ const router = createBrowserRouter([
         path: "/",
         element: <MainPage/>
       },
-
+      {
+        path: "/projects",
+        element: <Projects/>
+      }
     ]
   }
 ])
