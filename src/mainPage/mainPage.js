@@ -16,21 +16,21 @@ function MainPage() {
     return (
         <div className="App-header">
             <div className="App-shape"/>
-            <div className="Container">
+            <div className="container">
                 <h2>Hi! My name is <span className="name-color">Kevin Burga.</span></h2>
-                <div className="Main-description">
-                    <p className="Description-text">
+                <div className="main-description">
+                    <p className="description-text">
                         I'm a Software engineer with 1 year experience as a Front-end developer using React with TypeScript. 
                         I've leveraged Python with Flask and FastAPI to deliver backend solutions,
                         in addition to creating scripts to support data storage in small databases.
                         Other experiences include SQL, noSQL(mongoDB) and Java.
                     </p>
-                    <div className='Description-buttons'>
-                        <button className="Buttons-Social" onClick={()=>{handleSocialButtonClick('linkedin')}}>
-                            <img src="linkedinIcon.svg" className="linkedin-Image" alt="LinkedIn"/>
+                    <div className='description-buttons'>
+                        <button className="buttons-social" onClick={()=>{handleSocialButtonClick('linkedin')}}>
+                            <img src="linkedinIcon.svg" className="linkedin-image" alt="LinkedIn"/>
                         </button>
-                        <button className="Buttons-Social" onClick={()=>{handleSocialButtonClick('github')}}>
-                            <img src="githubIcon.svg" className="github-Image" alt="GitHub"/>
+                        <button className="buttons-social" onClick={()=>{handleSocialButtonClick('github')}}>
+                            <img src="githubIcon.svg" className="github-image" alt="GitHub"/>
                         </button>
                     </div>
                 </div>

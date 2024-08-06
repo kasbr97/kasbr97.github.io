@@ -1,0 +1,15 @@
+
+.project-card {
+    width: 80vw;
+    border: 2px solid #36FEAD;
+    border-radius: 10px;
+    margin-bottom: 20px;
+
+}
+
+.image-section {
+    border-radius: 50%;
+    height: auto;
+    width: 90%;
+    margin: 5%;
+}

@@ -5,12 +5,12 @@ function NavigationBar() {
     const navigate = useNavigate();
     return (
         <>
-            <div className="Container-bar">
+            <div className="container-bar">
                 <div style={{height: '100%'}}>
-                    <button className="Nav-Buttons" onClick={()=>navigate('/')}>
+                    <button className="nav-buttons" onClick={()=>navigate('/')}>
                         Home
                     </button>
-                    <button className="Nav-Buttons" onClick={()=>navigate('/projects')}>
+                    <button className="nav-buttons" onClick={()=>navigate('/projects')}>
                         Projects
                     </button>
 
