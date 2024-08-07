@@ -11,18 +11,15 @@ function Projects() {
                                 <img alt="Project" src="./img-projects/jokesapp.png" width={"100%"}/>
                             </div>
                             <div className="card-body">
-                                <p>JokeApp</p>
-                                <p>It's a Web Application built on C# with ASP .Net MVC. The JokesApp is a simple 
-                                    application that uses the Entity Framework ORM and connects to a database 
-                                    given the connection string. The users can create an account and start adding 
-                                    jokes to the application, which will be saved into a relational database. The jokes can 
-                                    then be edited, listed and deleted; however, only the user that created the 
-                                    joke, can edit and delete it, the other users can only read the joke.</p>
+                                <p>Frontend Challenge</p>
+                                <p>It's a small project where I learned how to use Responsive Design,
+                                    added special fonts to the web page, and testing using Jest. 
+                                </p>
                             </div>
                         </div>
                         <div className="project-card">
                             <div className="image-section">
-                                <img alt="Project" src="./img-projects/jokesapp.png" width={"100%"}/>
+                                <img alt="Project" src="./img-projects/pokemonapp.png" width={"100%"}/>
                             </div>
                             <div className="card-body">
                                 <p>PokemonApp</p>
