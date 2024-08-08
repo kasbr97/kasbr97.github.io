@@ -13,7 +13,7 @@ function NavigationBar() {
                     <button className="nav-buttons" onClick={()=>navigate('/projects')}>
                         Projects
                     </button>
-
+                    {/* TODO: Add my skills */}
                 </div>
             </div>
             

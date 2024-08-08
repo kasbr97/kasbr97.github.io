@@ -17,6 +17,9 @@ function Projects() {
                                     the information and in the website.
                                 </p>
                             </div>
+                            <div>
+                                <button>Git Repo</button>
+                            </div>
                         </div>
                         <div className="project-card">
                             <div className="image-section">
@@ -39,6 +42,9 @@ function Projects() {
                                     application that uses the Entity Framework ORM and connects to a database 
                                     given the connection string. The users can create an account and start adding 
                                     jokes to the application, which will be saved into a relational database.</p>
+                            </div>
+                            <div>
+                                <button>Git Repo</button>
                             </div>
                         </div>
                     </div>

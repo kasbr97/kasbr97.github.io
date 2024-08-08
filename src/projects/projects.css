@@ -14,8 +14,8 @@
     display: flex;
     width: 80vw;
     overflow-x: scroll;
-
 }
+
 .cards-display {
     box-sizing: border-box;
     margin-top: 10vh;
