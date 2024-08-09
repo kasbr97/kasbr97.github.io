@@ -1,0 +1,84 @@
+.container-projects {
+    background-color: #0c1023;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    overflow: hidden;
+}
+
+.cards-parent {
+    box-sizing: border-box;
+    display: flex;
+    width: 80vw;
+    overflow-x: scroll;
+    /*Hide scrollbar*/
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+}
+.cards-parent::-webkit-scrollbar {
+    display: none;
+}
+
+.cards-display {
+    box-sizing: border-box;
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    max-width: max-content;
+}
+
+.project-card {
+    width: 40vw;
+    border: 2px solid #36FEAD;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    /* margin-bottom: 20px; */
+}
+
+.image-section {
+    border-radius: 50%;
+    height: auto;
+    width: auto;
+    margin: 5%;
+}
+
+.card-body {
+    font-size: 16px;
+    margin: 0% 5% 5% 5%;
+}
+
+.card-title {
+    font-size: 24px;
+    margin: 0;
+}
+
+.buttons-section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5%;
+    margin-top: auto;
+}
+
+.card-btn {
+    border: none;
+    width: 5rem;
+    height: 3rem;
+    display: flex;
+    background: #36FEAD;
+    color: #0c1023;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    border-radius: 1rem;
+    padding: 0px 15px;
+}
+
+.card-btn:hover {
+    background: #2ccf8e;
+}
