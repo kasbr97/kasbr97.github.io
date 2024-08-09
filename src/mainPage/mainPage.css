@@ -50,7 +50,9 @@
 } */
 
 .buttons-social {
-    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     color: white;
     border: none;
     /* background: linear-gradient(90deg, #1F51FF, #B026FF, #1F51FF); */

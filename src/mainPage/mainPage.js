@@ -1,18 +1,6 @@
 import './mainPage.css'
 
 function MainPage() {
-    const handleSocialButtonClick = (socialMedia) => {
-        switch (socialMedia) {
-            case 'linkedin':
-                window.open("https://www.linkedin.com/in/kevinburgarojas/", "_blank");
-                break;
-            case 'github':
-                window.open("https://github.com/kasbr97", "_blank");
-                break;
-            default:
-                break;
-        }
-    }
     return (
         <div className="App-header">
             <div className="container">
@@ -20,18 +8,18 @@ function MainPage() {
                 <h2>Hi! My name is <span className="name-color">Kevin Burga.</span></h2>
                 <div className="main-description">
                     <p className="description-text">
-                        I'm a Software engineer with 1 year experience as a Front-end developer using React with TypeScript. 
+                        I'm a Software engineer with experience as a Full stack developer using React with TypeScript and Python. 
                         I've leveraged Python with Flask and FastAPI to deliver backend solutions,
                         in addition to creating scripts to support data storage in small databases.
                         Other experiences include SQL, noSQL(mongoDB) and C#.
                     </p>
                     <div className='description-buttons'>
-                        <button className="buttons-social" onClick={()=>{handleSocialButtonClick('linkedin')}}>
+                        <a className="buttons-social" href="https://www.linkedin.com/in/kevinburgarojas/" rel="noopener noreferrer" target="_blank">
                             <img src="linkedinIcon.svg" className="linkedin-image" alt="LinkedIn"/>
-                        </button>
-                        <button className="buttons-social" onClick={()=>{handleSocialButtonClick('github')}}>
+                        </a>
+                        <a className="buttons-social" href="https://github.com/kasbr97" rel="noopener noreferrer" target="_blank">
                             <img src="githubIcon.svg" className="github-image" alt="GitHub"/>
-                        </button>
+                        </a>
                     </div>
                 </div>
             </div>
