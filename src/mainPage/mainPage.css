@@ -45,6 +45,10 @@
     width: 5rem;
     height: 5rem;
 }
+/*
+    For future reference... filters on SVGs done through this website 
+    https: //isotropic.co/tool/hex-color-to-css-filter/
+*/
 /* .github-Image:hover {
     filter: invert(26%) sepia(75%) saturate(6948%) hue-rotate(272deg) brightness(106%) contrast(101%);
 } */
@@ -70,10 +74,19 @@
 }
 
 .linkedin-image {
-    /*
-        For future reference... filters on SVGs done through this website 
-        https: //isotropic.co/tool/hex-color-to-css-filter/
-    */
     width: 4rem;
     height: 4rem;
+}
+
+@media only screen and (max-width: 768px) {
+    .main-description {
+        flex-direction: column;
+    }
+
+    .description-text {
+        margin-inline: auto;
+        text-align: center;
+        justify-content: center;
+        width: 80%;
+    }
 }

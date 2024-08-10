@@ -3,7 +3,7 @@ import clickEffect from './effects/ClickEffect';
 import MainPage from './mainPage/mainPage';
 import NavigationBar from './navigationBar/navigationBar';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-import Projects from './projects/projects';
+import Projects from './projects/Projects.js';
 
 const router = createBrowserRouter([
   {

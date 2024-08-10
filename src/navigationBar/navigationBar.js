@@ -6,15 +6,13 @@ function NavigationBar() {
     return (
         <>
             <div className="container-bar">
-                <div style={{height: '100%'}}>
-                    <button className="nav-buttons" onClick={()=>navigate('/')}>
-                        Home
-                    </button>
-                    <button className="nav-buttons" onClick={()=>navigate('/projects')}>
-                        Projects
-                    </button>
-                    {/* TODO: Add my skills */}
-                </div>
+                <button className="nav-buttons" onClick={()=>navigate('/')}>
+                    Home
+                </button>
+                <button className="nav-buttons" onClick={()=>navigate('/projects')}>
+                    Projects
+                </button>
+                {/* TODO: Add my skills */}
             </div>
             
             <div>
