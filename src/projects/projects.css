@@ -82,3 +82,14 @@
 .card-btn:hover {
     background: #2ccf8e;
 }
+
+@media only screen and (max-width: 768px) {
+    .cards-display {
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 100%;
+        max-width: fit-content;
+    }
+}
