@@ -8,7 +8,8 @@ function MainPage() {
                 <h2>Hi! My name is <span className="name-color">Kevin Burga.</span></h2>
                 <div className="main-description">
                     <p className="description-text">
-                        I'm a Software engineer with experience as a Full stack developer using React with TypeScript, Python and SQL. 
+                        I'm a Software engineer with experience as a Full stack developer using most comfortable 
+                        using JavaScipt, TypeScript, Python and SQL. 
                         I've leveraged Python with Flask and FastAPI to deliver backend solutions,
                         in addition to creating scripts to support data storage in small relational databases.
                         Other experiences include noSQL(mongoDB) and C#.
