@@ -10,16 +10,20 @@
 }
 
 .cards-parent {
-    box-sizing: border-box;
     display: flex;
     width: 80vw;
-    overflow-x: scroll;
-    /*Hide scrollbar*/
-    -ms-overflow-style: none; /* IE and Edge */
-    scrollbar-width: none; /* Firefox */
+    overflow-x: auto;
+    padding-bottom: 10px;
 }
 .cards-parent::-webkit-scrollbar {
-    display: none;
+    height: 5px;
+}
+.cards-parent::-webkit-scrollbar-track {
+    background-color: #0c1023;
+}
+.cards-parent::-webkit-scrollbar-thumb {
+    background-color: #36FEAD;
+    border-radius: 5px;
 }
 
 .cards-display {
@@ -60,6 +64,7 @@
 .buttons-section {
     width: 100%;
     display: flex;
+    gap: 10px;
     justify-content: center;
     margin-bottom: 5%;
     margin-top: auto;
